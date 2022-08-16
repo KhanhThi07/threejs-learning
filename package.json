@@ -1,0 +1,27 @@
+{
+  "name": "threetut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "g": "^2.0.1",
+    "gsap": "^3.10.4",
+    "http-server": "^14.1.1",
+    "parcel": "^2.7.0",
+    "three": "^0.143.0"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.4.0"
+  },
+  "staticFiles": {
+    "staticOutPath": "assets"
+  }
+}
